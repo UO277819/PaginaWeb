@@ -51,6 +51,8 @@
   a{
     padding:20px 100px;
     color: #fff;  
+    
+    background-color:#252440;
   }
   /*Especificidad: 001*/
   header{
