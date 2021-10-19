@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <title>SEW.P0</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css" />
+    <meta name ="ciewport" content="width=device-width,initial scale=1.0">
 </head>
 
 <body>
@@ -37,7 +38,7 @@
         </nav>
     </header>
         
-
+    
         <form name="Formulario">
             <main>
                 <section>
@@ -51,7 +52,16 @@
                     <input type="number" id="Numero Telefono"><br>
                 </section>
                 <section>
-                    
+                    <fieldset>
+                        <legend>
+                            Tienes conocimientos sobre HTTP
+                        </legend>
+                        <label for="yes">Si</label>
+                        <input id="yes" type="radio" name="RadioBoton" value="Si" >
+                        <label for="no">No</label>
+                        <input id="no" type="radio" name="RadioBoton" value="No">
+                    </fieldset>
+
                     <p>Marqué si conoces o te suenan algunas de las diversas versiones de HTTP siguientes</p>
 
                     <fieldset>
@@ -75,7 +85,7 @@
             <label for="num">Puntuacion de la página</label><br>
             <input id="num" type=number min="0" max="10" placeholder="Puntue con un numero del 0 al 10"><br>
             
-            <input type="button" id="finalizar" value="Finalizar">
+            <input type="finalizar" id="submit" value="Finalizar">
         </section>
         </form>
 
