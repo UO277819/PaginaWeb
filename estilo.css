@@ -39,9 +39,11 @@
   }
   /*Especificidad: 001*/
   nav{
+    
+    text-align: center;
     color: #fff;  
     display:flex;
-    flex-flow:row ;
+    flex-flow:column ;
     flex:auto;
     border:0.5ex solid #000;
     background-color:#252440;
